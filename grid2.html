@@ -11,7 +11,11 @@
             grid-auto-rows: 100px;
             grid-gap: 10px;
             /*grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));*/
-            grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+            grid-template-columns: repeat(5, 50px);
+            /*justify-content: center;*/
+            /*align-content: center;*/
+            place-content: center;
+            height: 100vh;
         }
        .box:nth-child(even) {
            background-color: #3498db;
@@ -24,17 +28,6 @@
 </head>
 <body>
     <div class="father">
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
