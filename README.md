@@ -13,9 +13,9 @@ CSS Masterclass course (Flexbox, Grid, PostCSS, CSSNext)
 ### CSS Grid
 
 - [x] CSS Grid Basics ( Row, columns and gaps)
-- [ ] Auto columns, auto rows
-- [ ] Template Areas
-- [ ] fr unit, repeat
+- [x] Auto columns, auto rows
+- [x] Template Areas
+- [x] fr unit, repeat
 - [ ] minmax, max-content, min-content
 - [ ] auto-fill, auto-fit
 - [ ] Justify Content, Align Content and Place Content
