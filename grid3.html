@@ -11,7 +11,7 @@
             grid-gap: 10px;
             grid-auto-rows: 100px;
             grid-auto-flow: row dense;
-            grid-template-columns: [first-line] 1fr [awesome-line] 1fr [sexy-line] 1fr [nico-line] 1fr;
+            grid-template-columns: repeat(5, 1fr);
         }
         .box {
             display: flex;
@@ -26,8 +26,10 @@
             background-color: #34495e;
         }
         .box:first-child {
-            grid-column-start: awesome-line;
-            grid-column-end: nico-line;
+            /*grid-row-start: 2;*/
+            /*grid-row-end: 5;*/
+            grid-row: span 5;
+            grid-column: span 2;
         }
     </style>
 </head>
